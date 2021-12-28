@@ -120,9 +120,6 @@ public class AssesmentOLX {
 
 	}
 
-
-
-
 	@AfterTest
 	public void afterTest() {
 		driver.quit();
