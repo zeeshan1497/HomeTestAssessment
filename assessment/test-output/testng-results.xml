@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-12-28T22:21:43 GMT+05:00" name="Default suite" finished-at="2021-12-28T22:22:10 GMT+05:00" duration-ms="27001">
+    <groups>
+    </groups>
+    <test started-at="2021-12-28T22:21:43 GMT+05:00" name="Default test" finished-at="2021-12-28T22:22:10 GMT+05:00" duration-ms="27001">
+      <class name="empg_labs.assessment.AssesmentOLX">
+        <test-method is-config="true" signature="goToUrl()[pri:0, instance:empg_labs.assessment.AssesmentOLX@50ad3bc1]" started-at="2021-12-28T22:21:43 GMT+05:00" name="goToUrl" finished-at="2021-12-28T22:21:51 GMT+05:00" duration-ms="7387" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToUrl -->
+        <test-method signature="verifyURL()[pri:0, instance:empg_labs.assessment.AssesmentOLX@50ad3bc1]" started-at="2021-12-28T22:21:51 GMT+05:00" name="verifyURL" finished-at="2021-12-28T22:21:51 GMT+05:00" duration-ms="17" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyURL -->
+        <test-method signature="navigateToMobileCategory()[pri:1, instance:empg_labs.assessment.AssesmentOLX@50ad3bc1]" started-at="2021-12-28T22:21:51 GMT+05:00" name="navigateToMobileCategory" finished-at="2021-12-28T22:22:01 GMT+05:00" duration-ms="10494" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToMobileCategory -->
+        <test-method signature="filterListingsByPrice()[pri:2, instance:empg_labs.assessment.AssesmentOLX@50ad3bc1]" started-at="2021-12-28T22:22:01 GMT+05:00" name="filterListingsByPrice" finished-at="2021-12-28T22:22:05 GMT+05:00" duration-ms="3349" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- filterListingsByPrice -->
+        <test-method signature="validateResultsInPriceRange()[pri:3, instance:empg_labs.assessment.AssesmentOLX@50ad3bc1]" started-at="2021-12-28T22:22:05 GMT+05:00" name="validateResultsInPriceRange" finished-at="2021-12-28T22:22:05 GMT+05:00" duration-ms="258" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateResultsInPriceRange -->
+        <test-method signature="validateResultsAreFromMobileCategory()[pri:4, instance:empg_labs.assessment.AssesmentOLX@50ad3bc1]" started-at="2021-12-28T22:22:05 GMT+05:00" name="validateResultsAreFromMobileCategory" finished-at="2021-12-28T22:22:10 GMT+05:00" duration-ms="5216" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateResultsAreFromMobileCategory -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:empg_labs.assessment.AssesmentOLX@50ad3bc1]" started-at="2021-12-28T22:22:10 GMT+05:00" name="afterTest" finished-at="2021-12-28T22:22:10 GMT+05:00" duration-ms="217" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- empg_labs.assessment.AssesmentOLX -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
